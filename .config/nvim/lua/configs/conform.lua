@@ -12,6 +12,17 @@ local options = {
     javascriptreact = { "prettier" },
     cs = { "clang_format" },
     python = { "black" },
+    blade = { "blade-formatter" },
+  },
+
+  formatters = {
+    ["blade-formatter"] = {
+      prepend_args = {
+        "--wrap=120",
+        "--indent-size=2",
+        "--sort-tailwindcss-classes",
+      },
+    },
   },
 
   -- These options will be passed to conform.format()
