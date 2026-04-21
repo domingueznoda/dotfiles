@@ -9,5 +9,5 @@
 !.config/nvim/
 !.config/nvim/*
 !.config/nvim/lua/*
-!.config/nvim/lua/configs/*
+!.config/nvim/lua/config/*
 !.config/nvim/lua/plugins/*

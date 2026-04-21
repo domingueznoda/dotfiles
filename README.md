@@ -4,10 +4,10 @@ A collection of my dotfiles for reference a quick reinstall.
 
 ## Tools I use
 
-- ohmyzsh: Zsh framework (https://ohmyz.sh)
-- tmux: A terminal multiplexer (https://github.com/tmux/tmux)
-- neovim (nvim): hyperextensible Vim-based text editor (https://neovim.io)
-- nvchad: Blazing fast Neovim config providing solid defaults and a beautiful UI (https://nvchad.com)
+- ohmyzsh: Zsh framework (<https://ohmyz.sh>)
+- tmux: A terminal multiplexer (<https://github.com/tmux/tmux>)
+- neovim (nvim): hyperextensible Vim-based text editor (<https://neovim.io>)
+- Lazyvim: Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config.(<https://www.lazyvim.org/>)
 
 ## Setting up new environment
 
@@ -16,9 +16,6 @@ cd && git init
 git remote add origin https://github.com/ibandominguez/dotfiles.git
 git pull origin master
 ```
-
-## Nvchad nvim notes:
-- Formatters like prettier need an extra config file or package.json in order to work.
 
 # License
 
