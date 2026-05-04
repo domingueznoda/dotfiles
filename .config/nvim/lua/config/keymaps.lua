@@ -14,3 +14,12 @@ end, { desc = "Comment line" })
 
 -- Selection comment
 vim.keymap.set("v", "<leader>/", "gc", { remap = true, desc = "Comment selection" })
+
+-- AI avante
+vim.keymap.set({ "n", "x" }, "<leader>a", "+ai")
+vim.keymap.set("x", "<leader>ae", "<cmd>AvanteEdit<CR>", { remap = true, desc = "Edit Avante" })
+
+-- LSP
+vim.keymap.set("n", "gs", function()
+  vim.lsp.buf.signature_help()
+end, { desc = "Signature Help" })
